@@ -1,1 +1,44 @@
-fiz um projeto usando Spring Boot, Flyway, JPA, Hibernate, MySQL, Java. O projeto é uma API cujo objetivo é aplicar todas os padrões REST, tornando-a RESTFull. A API Web tem como objetivo atender o cadastro de leads na Semana Nacional de Ciência e Tecnologia. Desenvolvida sob a orientação do professor especialista Rômulo C. Silvestre, a  API foi construída passo a passo com os colegas de classe nas disciplinas: Teste de Software, Implementação de Sistemas e Modelagem de Sistemas. O objetivo é aplicar teste, implementação e modelagem de forma prática atendendo o desafio do SENAI. 
+# 📌 API de Cadastro de Leads  
+### Semana Nacional de Ciência e Tecnologia  
+
+## 📖 Descrição  
+Este projeto é uma **API RESTful** desenvolvida em **Java** com **Spring Boot**, **JPA/Hibernate**, **Flyway** e **MySQL**.  
+O objetivo é realizar o cadastro de *leads* durante a **Semana Nacional de Ciência e Tecnologia**, aplicando as melhores práticas de desenvolvimento de APIs REST.  
+
+Projeto desenvolvido sob orientação do professor **Rômulo C. Silvestre**, em conjunto com os colegas de classe, nas disciplinas:  
+- **Modelagem de Sistemas**  
+- **Implementação de Sistemas**  
+- **Teste de Software**  
+
+---
+
+## 🎯 Objetivos  
+- Aplicar conceitos de **modelagem, implementação e testes de software**.  
+- Utilizar **padrões REST** para construir uma API clara e escalável.  
+- Implementar **migração de banco de dados** com **Flyway**.  
+- Realizar persistência de dados com **Spring Data JPA / Hibernate**.  
+- Criar endpoints para operações de **CRUD de leads**.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+- **Java 17+**  
+- **Spring Boot 3**  
+- **Spring Data JPA / Hibernate**  
+- **Flyway**  
+- **MySQL**  
+- **Maven**  
+
+---
+
+## 🚀 Como executar o projeto  
+
+### 1️⃣ Pré-requisitos  
+- Java 17 ou superior  
+- MySQL  
+- Maven  
+
+### 2️⃣ Clonar o repositório  
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
