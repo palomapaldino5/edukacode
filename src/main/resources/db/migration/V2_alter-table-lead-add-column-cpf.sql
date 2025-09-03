@@ -1,0 +1,2 @@
+ALTER TABLE lead cpf VARCHAR(12)
+NOT NULL;

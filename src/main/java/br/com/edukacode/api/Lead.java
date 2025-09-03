@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -26,10 +27,24 @@ public class Lead {
     private String nome;
     private String email;
     private String telefone;
+    private String cpf;
 
     public Lead(DadosCadastroLead dados){
         this.nome = dados.nome();
         this.email = dados.email();
         this.telefone = dados.telefone();
+        this.cpf = dados.cpf();
+    }
+
+    public void setNome(String nome2) {
+        throw new UnsupportedOperationException("Unimplemented method 'setNome'");
+    }
+
+    public void setEmail(String email2) {
+        throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
+    }
+
+    public void setTelefone(String telefone2) {
+        throw new UnsupportedOperationException("Unimplemented method 'setTelefone'");
     }
 }
