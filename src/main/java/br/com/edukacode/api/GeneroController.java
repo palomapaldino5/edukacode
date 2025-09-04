@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GeneroController {
     @GetMapping
     public String listar(){
-        return "listando generos";
+        return "listando generos cadastrados";
     }
 
 }
